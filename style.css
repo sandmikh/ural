@@ -4,7 +4,7 @@
 }
 /*задний фон поставил в body*/
 body{
-	font-family: "Ural","HelveticaNeue", sans-serif;
+	font-family: "Ural_pro","Ural_pro_light","Ural_pro_bold","HelveticaNeue","HelveticaNeueBold", sans-serif;
 	font-size: 16.9px;
 	font-style: normal;
 	font-weight: 400;
@@ -25,7 +25,7 @@ body{
 header{
 	height: 72px;
 	/*background-color: #e53500;*/
-	font-family: "Ural";
+	font-family: "Ural_pro";
 	font-size: 10px;
 	padding-left: 25px;
 	margin-bottom: 67px;
@@ -33,7 +33,7 @@ header{
 }
 header #logo a h1 {
 	float: left;
-	font-size: 24.3px;
+	font-size: 27.3px;
 	color: white;
 	background: url(images/icon/logo.jpg) no-repeat left;
 	padding-left: 68px;
@@ -73,19 +73,28 @@ main{
 	padding-left: 28px;
 }
 /*поделил на 4 обзаца это 1 обзац*/
+#the_company{
+	height: 305px;
+}
+/*главный заголовок*/
 main #the_company h1{
-	font-size: 61px;
-	font-family: "Ural";
-	margin-bottom: 70px;
-	/*color:white;*/
-	/*подключю шрифт потом сниму коммент*/
+	font-size: 64px;
+	font-family: "Ural_pro_bold";
+	margin-bottom: 70px; 
+	color:white;
 }
 main #the_company b{
-	/*color: #bcbcbc;*/
+	color: #bcbcbc;
 }
+/*конец главного заголовка*/
+
 /*общие параметры section*/
+
+/*общие параметры второго заголовка h2*/
 #the_company section h2{
 	font-size: 18px;
+	font-family: "HelveticaNeueBold";
+	font-weight: bold;
 	color: white;
 	border-top: 6px solid #bcbcbc;
 	padding-top: 14px;
@@ -94,11 +103,14 @@ main #the_company b{
 #the_company h2 b{
 	color: #bcbcbc;
 }
+/*конец второго заголовка h2*/
+
+/*общие параметры section и p*/
 
 main #the_company section{
 	float: left;
 	color: white;
-	font-family: "Helvetica";
+	font-family: "HelveticaNeue";
 	font-size: 12.68px;
 	line-height: 14px;
 	width: 276px;
@@ -120,3 +132,73 @@ main #the_company section{
 #the_company section #tree{
 	background: url(images/icon/3-section.jpg) no-repeat 145px;
 }
+
+
+/*второй обзац (серый)*/
+
+#productsServices{
+	height: 753px;
+}
+
+/*главный заголовок*/
+#productsServices h1{
+	color: white;
+	font-family: "Ural_pro_bold";
+	font-size: 64px;
+	padding-top: 70px;
+	margin-bottom: 68px;
+}
+#productsServices h1 b{
+	color: #bcbcbc;
+}
+/*конец главного заголовка*/
+
+/*общие параметры section*/
+
+/*общие параметры второго заголовка h2*/
+#productsServices section h2{
+	font-size: 18px;
+	font-family: "HelveticaNeueBold";
+	font-weight: bold;
+	color: white;
+	border-top: 6px solid #bcbcbc;
+	border-bottom: 1px solid #bcbcbc;
+	padding-top: 14px;
+	padding-bottom: 18px;
+	margin-bottom: 18px;
+}
+#productsServices h2 b{
+	color: #f34005;
+}
+/*конец второго заголовка h2*/
+
+/*общие параметры section и p*/
+
+main #productsServices section{
+	float: left;
+	color: white;
+	font-family: "HelveticaNeue";
+	font-size: 12.68px;
+	line-height: 14px;
+	width: 276px;
+	margin-right: 16px;
+}
+/*первый section*/
+main #productsServices section #one{
+	background: url(images/icon/2-1section.png) no-repeat 200px;
+}
+/* main #productsServices section #one:after{
+	content: '';
+	display: inline-block;
+	background: url(images/icon/RailwayTanks.png) no-repeat;
+} */
+
+/*второй section*/
+main #productsServices section #two{
+	background: url(images/icon/2-2section.png) no-repeat 200px;
+}
+/*третий section*/
+main #productsServices section #tree{
+	background: url(images/icon/2-3section.png) no-repeat 200px;
+}
+

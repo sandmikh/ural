@@ -1,0 +1,55 @@
+/*font-family:"HelveticaNeue";*/
+@font-face {
+	font-family:"HelveticaNeue";
+	src:url(fonts/Helvetica/HelveticaNeue.eot);
+	src:url(fonts/Helvetica/HelveticaNeue.eot?#iefix)format("embedded-opentype"),
+  url(fonts/Helvetica/HelveticaNeue.svg),
+	url(fonts/Helvetica/HelveticaNeue.woff)format("woff"),
+	url(fonts/Helvetica/HelveticaNeue.ttf)format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*font-family:"HelveticaNeueBold";*/
+@font-face {
+	font-family:"HelveticaNeueBold";
+	src:url(fonts/Helvetica/HelveticaNeueBold.eot);
+	src:url(fonts/Helvetica/HelveticaNeueBold.eot?#iefix)format("embedded-opentype"),
+	url(fonts/Helvetica/HelveticaNeueBold.svg),
+	url(fonts/Helvetica/HelveticaNeueBold.woff)format("woff"),
+	url(fonts/Helvetica/HelveticaNeueBold.ttf)format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+/*font-family:"ural_pro";*/
+@font-face {
+	font-family:"Ural_pro";
+	src:url(fonts/Ural/ural_pro-webfont.eot);
+	src:url(fonts/Ural/ural_pro-webfont.eot?#iefix)format("embedded-opentype"),
+	url(fonts/Ural/ural_pro-webfont.svg),
+	url(fonts/Ural/ural_pro-webfont.woff)format("woff"),
+	url(fonts/Ural/ural_pro-webfont.ttf)format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*font-family:"Ural_pro_light"*/
+@font-face {
+	font-family:"Ural_pro_light";
+	src:url(fonts/Ural/ural_pro_light-webfont.eot);
+	src:url(fonts/Ural/ural_pro_light-webfont.eot?#iefix)format("embedded-opentype"),
+	url(fonts/Ural/ural_pro_light-webfont.svg),
+	url(fonts/Ural/ural_pro_light-webfont.woff)format("woff"),
+	url(fonts/Ural/ural_pro_light-webfont.ttf)format("truetype");
+	font-style: normal;
+	font-weight: lighter;
+}
+/*font-family:"Ural_pro_bold"*/
+@font-face {
+	font-family:"Ural_pro_bold";
+	src:url(fonts/Ural/ural_bold_pro-webfont.eot);
+	src:url(fonts/Ural/ural_bold_pro-webfont.eot?#iefix)format("embedded-opentype"),
+	url(fonts/Ural/ural_bold_pro-webfont.svg),
+	url(fonts/Ural/ural_pro-webfont.woff)format("woff"),
+	url("fonts/Ural/ural_bold_pro-webfont.ttf")format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
