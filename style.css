@@ -326,3 +326,8 @@ main #information{
 		height: 36px;
 		z-index: 999;
 }
+/* #information fieldset select{
+	background:url(images/icon/select_img.jpg)right;
+	width: 38px;
+	height: 36px;
+} */
