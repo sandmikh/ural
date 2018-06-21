@@ -10,6 +10,7 @@ body{
 	font-weight: 400;
 	line-height: 122%;
 	background-image: url(images/backgraund/background.jpg);
+	/*background-image: url(images/backgraund/main_background.jpg);*/
 	background-position:center top;
 	background-repeat: no-repeat;
 	height: 3000px;
@@ -24,19 +25,19 @@ body{
 /*шапка*/
 header{
 	height: 72px;
-	/*background-color: #e53500;*/
 	font-family: "Ural_pro";
 	font-size: 10px;
 	padding-left: 25px;
 	margin-bottom: 67px;
-
 }
-header #logo a h1 {
+header #logo a img{
+	float: left;
+}
+header #logo a strong {
 	float: left;
 	font-size: 27.3px;
 	color: white;
-	background: url(images/icon/logo.jpg) no-repeat left;
-	padding-left: 68px;
+	padding-left: 11px;
 }
 header #logo{
 	padding-top: 26px;
@@ -98,7 +99,9 @@ main #the_company b{
 	color: white;
 	border-top: 6px solid #bcbcbc;
 	padding-top: 14px;
-	margin-bottom: 18px;
+	border-bottom: 1px solid #bcbcbc;
+	padding-bottom: 18px;
+	margin-bottom: 5px;
 }
 #the_company h2 b{
 	color: #bcbcbc;
@@ -117,20 +120,21 @@ main #the_company section{
 	margin-right: 16px;
 }
 #the_company section p{
-	border-top: 2px solid #bcbcbc;
-	padding-top: 15px;
+	width: 129px;
+	padding-right: 140px;
+	padding-top: 10px;
 }
 /*первый section*/
 #the_company section #one{
-	background: url(images/icon/1-section.jpg) no-repeat 146px;
+	background: url(images/icon/1-section.png) no-repeat 146px 2px;
 }
 /*второй section*/
 #the_company section #two{
-	background: url(images/icon/2-section.jpg) no-repeat 130px;
+	background: url(images/icon/2-section.png) no-repeat 140px 18px;
 }
 /*третий section*/
 #the_company section #tree{
-	background: url(images/icon/3-section.jpg) no-repeat 145px;
+	background: url(images/icon/3-section.png) no-repeat 145px;
 }
 
 
@@ -141,14 +145,14 @@ main #the_company section{
 }
 
 /*главный заголовок*/
-#productsServices h1{
+#productsServices h2{
 	color: white;
 	font-family: "Ural_pro_bold";
 	font-size: 64px;
 	padding-top: 70px;
 	margin-bottom: 68px;
 }
-#productsServices h1 b{
+#productsServices h2 b{
 	color: #bcbcbc;
 }
 /*конец главного заголовка*/
@@ -165,14 +169,28 @@ main #the_company section{
 	border-bottom: 1px solid #bcbcbc;
 	padding-top: 14px;
 	padding-bottom: 18px;
-	margin-bottom: 18px;
+	margin-bottom: 13px;
 }
-#productsServices h2 b{
+#productsServices section p{
+	width: 170px;
+	height: 110px;
+	padding-top: 9px;
+	color: #acacac;
+	padding-right: 140px;
+}
+#productsServices section h2 b{
 	color: #f34005;
 }
 /*конец второго заголовка h2*/
-
-/*общие параметры section и p*/
+/*параметры второго h2*/
+#productsServices section #h2VehicleTanks{
+	margin-bottom: 6px;
+}
+/*параметры третьего h2*/
+#productsServices section #h2LongStorageTanks{
+	margin-bottom: 14px;
+}
+/*общие параметры section */
 
 main #productsServices section{
 	float: left;
@@ -182,23 +200,112 @@ main #productsServices section{
 	line-height: 14px;
 	width: 276px;
 	margin-right: 16px;
+	margin-bottom: -1px;
 }
-/*первый section*/
+/*img которые в section*/
+main #productsServices section #RailwayTanks{
+	margin-bottom: 18px;
+	padding-top: 11px;
+}
+main #productsServices section #VehicleTanks{
+	margin-bottom: 19px;
+}
+main #productsServices section #LongStorageTanks{
+	margin-bottom: 29px;
+  margin-left: 15px;
+}
+/*icon первого section*/
 main #productsServices section #one{
-	background: url(images/icon/2-1section.png) no-repeat 200px;
+	background: url(images/icon/2-1section.png) no-repeat 195px 2px;
 }
-/* main #productsServices section #one:after{
-	content: '';
-	display: inline-block;
-	background: url(images/icon/RailwayTanks.png) no-repeat;
-} */
-
-/*второй section*/
+/*icon второго section*/
 main #productsServices section #two{
-	background: url(images/icon/2-2section.png) no-repeat 200px;
+	background: url(images/icon/2-2section.png) no-repeat 195px 3px;
 }
-/*третий section*/
+/*icon третего section*/
 main #productsServices section #tree{
-	background: url(images/icon/2-3section.png) no-repeat 200px;
+	background: url(images/icon/2-3section.png) no-repeat 195px 1px;
+}
+/*следующая строчка*/
+#productsServices .second_line p{
+	width: 138px;
+	color: #acacac;
+	padding-right: 140px;
+}
+main #productsServices section #four{
+	background: url(images/icon/EmergencySystems.png) no-repeat 136px 0px;
+}
+main #productsServices section #five{
+	background: url(images/icon/CryogenicTransport.png) no-repeat 149px -7px;
+}
+main #productsServices section #six{
+	background: url(images/icon/InnovativeProducts.png) no-repeat 139px -3px;
 }
 
+/*третий обзац (оранжевый)*/
+main #information{
+	height: 388px;
+}
+#information h2{
+	color: white;
+	font-family: "Ural_pro_bold";
+	font-size: 65px;
+	padding-top: 49px;
+	line-height: 98%;
+	margin-bottom: 34px;
+}
+#information h2 b{
+	color: #8d8d8d;
+}
+#information h2 strong{
+	color: #4a4a4a;
+}
+/*третий заголовок*/
+#information #tenders{
+	float: left;
+	color: white;
+	border-top: 7px solid #4a4a4a;
+	padding-top: 9px;
+	margin-right: 11px;
+	width: 567px;
+	margin-bottom: 10px;
+}
+#information #dealer{
+	float: left;
+	color: white;
+	border-top: 7px solid #4a4a4a;
+	padding-top: 9px;
+	width: 277px;
+	margin-bottom: 10px;
+}
+
+ #information fieldset{
+	width: 277px;
+	float: left;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-top: 1px solid;
+	font-family: "HeveticaNeue";
+	font-size: 15.6px;
+	line-height: 15px;
+	color: white;
+	margin-right: 10px;
+	padding-top: 14px;
+} 
+
+#information fieldset legend{
+	font-size: 15px;
+	padding-right: 13px;
+	padding-left: 2px;
+}
+#information #city{
+	width: 274px;
+	height: 35px;
+	padding-left: 10px;
+	margin-left: 6px;
+	margin-top: 57px;
+}
+#information #city .active{
+	background: url(images/icon/select_img.jpg)no-repeat right;
+}
