@@ -292,6 +292,7 @@ main #information{
 	color: white;
 	margin-right: 10px;
 	padding-top: 14px;
+	position: relative;
 } 
 
 #information fieldset legend{
@@ -304,8 +305,24 @@ main #information{
 	height: 35px;
 	padding-left: 10px;
 	margin-left: 6px;
-	margin-top: 57px;
+	margin-top: 7px;
 }
-#information #city .active{
+/* #information #city select option{
 	background: url(images/icon/select_img.jpg)no-repeat right;
+	color: grey;
+} */
+/* #onformation >select >option{
+	background-color: transparent;
+	border:0;
+	background-image: url(images/icon/select_img.jpg);
+
+} */
+#information .arrow{
+		position: absolute;
+		background: url(images/icon/select_img.jpg);
+		width: 38px;
+		left: 941px;
+		margin-top: 82px;
+		height: 36px;
+		z-index: 999;
 }
